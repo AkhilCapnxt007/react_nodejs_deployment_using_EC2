@@ -1,0 +1,23 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.coloum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.coloum .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    text-align: center;
+}
+
+.coloum .row li{
+    list-style-type: none;
+    padding: 0vw 1vw;
+}
